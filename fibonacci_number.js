@@ -1,5 +1,3 @@
-// by Alexander Nikolskiy
-
 const readline = require('readline');
 const rl = readline.createInterface({
   input: process.stdin,

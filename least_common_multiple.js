@@ -1,5 +1,3 @@
-// by Alexander Nikolskiy
-
 const readline = require('readline');
 const rl = readline.createInterface({
   input: process.stdin,
@@ -20,7 +18,6 @@ function readLine(line) {
 }
 
 function gcd(a, b) {
-  // write your code here
   if (b === 0) return a;
 
   let remainder = a % b;
